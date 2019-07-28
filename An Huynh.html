@@ -10,34 +10,66 @@ source : http://bit.ly/2OksjeR
 </head>
 <style>
     .Left {
-        background: rgba(191, 193, 170, .4) left;
-        width: 20%;
-        min-width: fit-content;
+        background-color: rgba(191, 193, 170, .3);
+        position: absolute;
+        width: 250px;
+        top: 0;
+        left: 0;
+        min-width: 100px;
         height: 100vh;
         padding: 10px 20px;
     }
 
-    .Name_tag{
-        background: rgba(191, 193, 170, .4) left;
-        width
+    .Right{
+        background-color: rgba(191, 193, 170, .3);
+        position: absolute;
+        top: 50px;
+        left: 290px;
+        width: 76% ;
+        padding: 10px 10px 10px 80px;
+        z-index: 10;
+    }
+
+    .Avatar {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-image: url("http://bit.ly/2LLPahk");
+        background-position: center;
+        background-size: contain;
+    }
+    .Name {
+        font-family: Camellia;
+        font-size: 45px;
+        text-align: left;
+        color: rgba(30, 0, 0, .8);
+    }
+
+    .content {
+        font-family: Victorian;
+        font-size: 25px;
+        text-align: left;
+        line-height: 20px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, .7);
     }
 </style>
 
 <body>
-<div>
-    <div class="Left">
-        <p>
-            HUYNH NHAT MINH AN
-        </p>
+<div class="Left">
+    <div class="Avatar"></div>
 
-    </div>
-    <div class="Name_tag">
-        <p>
-            HUYNH NHAT MINH AN
-        </p>
-
-    </div>
 </div>
+
+<div class="Right">
+    <h1 class="Name">
+        HUYNH NHAT MINH AN
+    </h1>
+    <h2 class="content">
+        Lorem ipsum ligula tortor sapien justo quam facilisis
+    </h2>
+</div>
+
 
 </body>
 </html>
