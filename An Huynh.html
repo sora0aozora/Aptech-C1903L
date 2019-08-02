@@ -13,7 +13,7 @@ source : http://bit.ly/2OksjeR
     .Left {
         background-color: rgba(191, 193, 170, .3);
         position: absolute;
-        width: 350px;
+        width: 300px;
         top: 0;
         left: 0;
         min-width: 100px;
@@ -23,7 +23,7 @@ source : http://bit.ly/2OksjeR
     .Right{
         position: absolute;
         top: 50px;
-        left: 390px;
+        left: 340px;
         width: 71% ;
         z-index: 10;
     }
@@ -34,27 +34,31 @@ source : http://bit.ly/2OksjeR
     }
 
     .Avatar {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         position: relative;
-        margin: 0px 20px 0px 50px;
+        display: block;
+        margin: 30px auto;
         border-radius: 50%;
-        background-image: url("http://bit.ly/2LLPahk");
+        background-image: url("http://bit.ly/2MFZerM");
         background-position: center;
         background-size: contain;
     }
 
     .p_info{
-        background-color: rgba(191, 193, 170, .5);
-        margin-top: 20px;
+        /*background-color: rgba(191, 193, 170, .5);
+         */
+        display: flex;
+        margin-top: 25px;
         padding: 5px 10px 5px 20px;
         font-family: "Century Gothic";
         font-size: 15px;
     }
 
     .info2 {
-        background-color: rgba(191, 193, 170, .5);
-        margin-top: 30px;
+        /*background-color: rgba(191, 193, 170, .5);
+         */
+        margin-top: 35px;
         padding: 5px 10px 5px 20px;
         font-family: "Century Gothic";
         font-size: 15px;
@@ -67,12 +71,11 @@ source : http://bit.ly/2OksjeR
         color: rgba(30, 0, 0, .8);
     }
 
-    .content {
+    .Title {
         font-family: Victorian;
-        font-size: 25px;
+        font-size: 30px;
         text-align: left;
-        line-height: 20px;
-        font-weight: bold;
+                font-weight: bold;
         color: rgba(0, 0, 0, .7);
     }
 
@@ -84,25 +87,111 @@ source : http://bit.ly/2OksjeR
         font-size: 15px;
         padding: 10px 10px 10px 80px;
     }
+
+    .icon {
+        width: 20%;
+        float: left;
+        line-height: 40px;
+    }
+
+    .img-align {
+        margin-bottom: -1em;
+        width: 35px;
+        padding-top: 5px;
+        padding-right: 25px;
+    }
+
+    .text-info {
+        float: right;
+        width: 90%;
+    }
+
+    .lines {
+        border-bottom: 1px ridge rgba(191, 193, 170, .8);
+        width: 35%;
+        margin: 20px;
+        float: left;
+    }
+    .vl {
+        border-left: 4px outset rgba(80, 0, 0, .5);
+        margin: 15px 10px;
+        height: fit-content;
+        width: 80%;
+    }
+
+    .headline {
+        color: rgba(50, 80, 70, 1);
+    }
+
+    .content {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: rgba(50, 50, 50, .9)
+    }
+
+    .bullet {
+        width: 30%;
+        margin: 15px 0px;
+        padding-right: 20px;
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgba(50, 20, 20, .9)
+    }
 </style>
 
 <body>
 <div class="Left">
     <div class="Avatar"></div>
     <div class="p_info">
-        <p>
-            Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim , eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim
-        </p>
+        <div class="icon">
+            <img class="img-align" src="http://bit.ly/2yzHYMQ">
+            <img class="img-align" src="http://bit.ly/2OxQ2Zc">
+            <img class="img-align" src="http://bit.ly/2YDnmBW">
+            <img class="img-align" src="http://bit.ly/2OxQ2Zc">
+        </div>
+        <div class="text-info">
+            <p> (+84) 96 289 5049 </p>
+            <p> annhatminh.h@gmail.com </p>
+            <p>Tan Binh District, Ho Chi Minh City, Vietnam</p>
+            <p> annhatminh.h@gmail.com </p>
+        </div>
     </div>
+    <hr class="lines">
     <div class="info2">
-        <p>
-            Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim , eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim
-        </p>
+        <h2 class="headline">
+            Education
+        </h2>
+        <h4 style="color: rgba(50, 20, 20, .9)">
+            2011
+            <div class="vl">
+                <div class="content">
+                    Finance and Banking at Hoa Sen University
+                    <p style="color:black; font-size: 15px; margin: 10px"> GPA 3.28/4.00</p>
+                </div>
+            </div>
+            2013
+            <div class="vl">
+                <div class="content">
+                    Human Resources Management at Hoa Sen University
+                    <p style="color:black; font-size: 15px; margin: 10px"> GPA 3.72/4.00</p>
+                </div>
+            </div>
+            2016
+        </h4>
     </div>
+    <hr class="lines">
     <div class="info2">
-        <p>
-            Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim , eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim
-        </p>
+        <h2 class="headline">
+            Skills
+        </h2>
+        <div class="bullet">
+            English:
+            Photograph:
+            Photoshop:
+            Illustrator:
+            MS Office:
+        </div>
     </div>
 </div>
 
@@ -111,8 +200,8 @@ source : http://bit.ly/2OksjeR
         <h1 class="Name">
             HUYNH NHAT MINH AN
         </h1>
-        <h2 class="content">
-            Lorem ipsum ligula tortor sapien justo quam facilisis
+        <h2 class="Title">
+            Marketing Coordinator
         </h2>
     </div>
 
