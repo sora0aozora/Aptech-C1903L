@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-source : http://bit.ly/2OksjeR
+    source : http://bit.ly/2OksjeR
 -->
 
 <html lang="en">
@@ -8,6 +8,7 @@ source : http://bit.ly/2OksjeR
     <meta charset="UTF-8">
     <title>Huynh Nhat Minh An</title>
     <link href="//db.onlinewebfonts.com/c/5e7a22cbdfcff9e10b293d3031f8fcc3?family=Camellia" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     .Left {
@@ -31,13 +32,13 @@ source : http://bit.ly/2OksjeR
     .URight{
         background-color: rgba(191, 193, 170, .3);
         padding: 10px 10px 10px 80px;
+        min-height: 80px;
     }
 
     .Avatar {
         width: 200px;
         height: 200px;
-        position: relative;
-        display: block;
+        display: flex;
         margin: 30px auto;
         border-radius: 50%;
         background-image: url("http://bit.ly/2MFZerM");
@@ -75,8 +76,9 @@ source : http://bit.ly/2OksjeR
         font-family: Victorian;
         font-size: 30px;
         text-align: left;
-                font-weight: bold;
+        font-weight: bold;
         color: rgba(0, 0, 0, .7);
+
     }
 
     .exp {
@@ -130,13 +132,25 @@ source : http://bit.ly/2OksjeR
     }
 
     .bullet {
-        width: 30%;
-        margin: 15px 0px;
-        padding-right: 20px;
-        line-height: 30px;
+        width: 35%;
+        display: block;
+        float: left;
+        padding-left: 5px;
         font-size: 15px;
-        font-weight: bold;
-        color: rgba(50, 20, 20, .9)
+        font-weight: bolder;
+        color: rgba(50, 20, 20, .6);
+    }
+
+    .skill-lv {
+        width: 60%;
+        display: block;
+        float: right;
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .checked {
+        color: orange;
     }
 </style>
 
@@ -162,7 +176,7 @@ source : http://bit.ly/2OksjeR
         <h2 class="headline">
             Education
         </h2>
-        <h4 style="color: rgba(50, 20, 20, .9)">
+        <h4 style="color: rgba(50, 20, 20, .9);">
             2011
             <div class="vl">
                 <div class="content">
@@ -183,39 +197,99 @@ source : http://bit.ly/2OksjeR
     <hr class="lines">
     <div class="info2">
         <h2 class="headline">
-            Skills
+            Key Skills
         </h2>
-        <div class="bullet">
-            English:
-            Photograph:
-            Photoshop:
-            Illustrator:
-            MS Office:
+        <div style="color: rgba(50, 20, 20, .6); padding-left: 5px; font-weight: bolder">
+            <p>Photography</p>
+            <p>Drawing & Image Editing</p>
+            <p>Video Making</p>
+            <p>Problem Solving</p>
+            <p>Time Management</p>
+            <p>Project Management</p>
+            <p>Team Leadership</p>
         </div>
     </div>
-</div>
-
-<div class="Right">
-    <div class="URight">
-        <h1 class="Name">
-            HUYNH NHAT MINH AN
-        </h1>
-        <h2 class="Title">
-            Marketing Coordinator
+    <hr class="lines">
+    <div class="info2">
+        <h2 class="headline">
+            English Skills
         </h2>
-    </div>
+        <div class="bullet">
+            <p>Speaking</p>
+            <p>Listening</p>
+            <p>Reading</p>
+            <p>Writing</p>
+        </div>
+        <div class="skill-lv">
+            <p><span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star"></span>
+             <span class="fa fa-star"></span>
+             <span class="fa fa-star"></span>
+            </p>
+            <p><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </p>
+            <p><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </p>
+            <p><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </p>
+        </div>
+     </div>
+ </div>
 
-    <div class="exp">
-        <p>
-            Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
-        </p>
+ <div class="Right">
+     <div class="URight">
+         <h1 class="Name">
+             HUYNH NHAT MINH AN
+         </h1>
+         <h2 class="Title">
+             Marketing Coordinator
+         </h2>
+     </div>
 
-        <p>
-            Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
-        </p>
-    </div>
-</div>
+     <div class="exp">
+         <p>
+             Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+         </p>
+
+         <p>
+             Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+         </p>
+     </div>
+ </div>
 
 
-</body>
-</html>
+ </body>
+ </html>
