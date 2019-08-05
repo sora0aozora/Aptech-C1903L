@@ -14,22 +14,24 @@
     .Left {
         background-color: rgba(191, 193, 170, .3);
         position: absolute;
-        width: 300px;
+        width: 20%;
         top: 0;
         left: 0;
         min-width: 100px;
         padding: 10px 20px;
+        z-index: 1000;
     }
 
     .Right{
         position: absolute;
         top: 50px;
-        left: 340px;
-        width: 71% ;
+        left: 20%;
         z-index: 10;
     }
 
     .URight{
+        position: relative;
+        left: 2.4%;
         background-color: rgba(191, 193, 170, .3);
         padding: 10px 10px 10px 80px;
         min-height: 80px;
@@ -67,22 +69,32 @@
 
     .Name {
         font-family: Camellia;
-        font-size: 45px;
+        font-size: 60px;
         text-align: left;
         color: rgba(30, 0, 0, .8);
     }
 
     .Title {
         font-family: Victorian;
+        margin: 15px 45px 10px;
         font-size: 30px;
         text-align: left;
         font-weight: bold;
         color: rgba(0, 0, 0, .7);
 
     }
+    .JTitle {
+        font-family: Victorian;
+        font-size: 40px;
+        text-align: left;
+        font-weight: bold;
+        color: rgba(0, 0, 0, .7);
 
+    }
     .exp {
-        background-color: rgba(191, 193, 170, .5);
+        /*background-color: rgba(191, 193, 170, .5);
+        */
+        display: block;
         margin-top: 30px;
         padding: 5px 10px 5px 20px;
         font-family: "Century Gothic";
@@ -106,6 +118,7 @@
     .text-info {
         float: right;
         width: 90%;
+        line-height: 24px;
     }
 
     .lines {
@@ -128,7 +141,7 @@
     .content {
         padding: 10px 20px;
         font-size: 16px;
-        color: rgba(50, 50, 50, .9)
+        color: rgba(50, 50, 50, .9);
     }
 
     .bullet {
@@ -151,6 +164,31 @@
 
     .checked {
         color: orange;
+    }
+
+    .exp-info {
+        font-family: Victorian;
+        font-size: 18px;
+        margin: 15px 45px 40px;
+        color: rgba(50, 50, 50, .9);
+        text-align: justify;
+    }
+
+    .comp-year{
+        font-family: "Century Gothic";
+        font-size: 20px;
+        color: rgba(50, 50, 50, 1);
+        margin: 15px 45px 20px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .exp-title {
+        font-family: "Century Gothic";
+        font-size: 25px;
+        margin: 15px 45px 0px;
+        color: rgba(40, 0, 0, 1);
+        font-weight: bold;
     }
 </style>
 
@@ -274,19 +312,41 @@
          <h1 class="Name">
              HUYNH NHAT MINH AN
          </h1>
-         <h2 class="Title">
+         <h2 class="JTitle">
              Marketing Coordinator
          </h2>
      </div>
 
      <div class="exp">
-         <p>
-             Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
-         </p>
+         <div>
+             <p class="Title">PROFESSIONAL PROFILE</p>
+             <hr style="margin: 0px 45px; border-bottom: 1px ridge rgba(191, 193, 170, .8); float: left; width: 100%"><br>
+             <p class="exp-info">
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+             </p>
+         </div>
+            <p class="Title">EXPERIENCE</p>
+            <hr style="margin: 0px 45px; border-bottom: 1px ridge rgba(191, 193, 170, .8); float: left; width: 100%"><br>
+         <div>
+             <p class="exp-title">Lorem ipsum ligula tortor sapien</p>
+             <p class="comp-year">XXX Corporation - 20xx-201xx</p>
+             <p class="exp-info">
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
 
-         <p>
-             Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
-         </p>
+             </p>
+             <p class="exp-title">Lorem ipsum ligula tortor sapien</p>
+             <p class="comp-year">XXX Corporation - 20xx-201xx</p>
+             <p class="exp-info">
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+                 Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque bibendum vehicula duis enim habitasse cras mi varius, leo metus in morbi metus tincidunt ut adipiscing varius vehicula phasellus scelerisque vel gravida nunc malesuada, vehicula felis sem hendrerit aliquam eros velit tortor, sit cubilia malesuada aptent porta potenti habitasse tempus quam taciti condimentum quisque eros amet aenean, posuere curabitur eu leo purus amet sit, vitae suscipit potenti et lacus lorem scelerisque ultrices porta class tempus nullam lobortis egestas curae erat, odio a porta arcu dictumst nulla justo.
+             </p>
+         </div>
+
      </div>
  </div>
 
