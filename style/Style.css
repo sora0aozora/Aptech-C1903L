@@ -1,0 +1,31 @@
+/*noinspection ALL*/
+.m-layout {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: calc(100vw - 5px);
+    background-color: rgba(180, 250, 220, .4);
+}
+
+.m-layout > div {
+   /* background-color: rgba(180, 250, 120, .4);
+    */
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.left-layout {
+    height: fit-content;
+    background-color: rgba(180, 250, 120, .4);
+    padding: 20px 5px;
+}
+
+
+.in-grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 10px;
+    padding: 15px;
+}
+

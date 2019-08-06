@@ -1,0 +1,78 @@
+.Avatar {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    background-image: url("http://bit.ly/2MFZerM");
+    background-position: center;
+    background-size: contain;
+}
+
+.p-info > div {
+    font-family: Cambria;
+    font-size: 17px;
+    margin: 0px 15px 5px 35px;
+    text-align: justify;
+}
+
+icon {
+    text-align: center;
+}
+
+.l-lines {
+    border-top: 1px ridge rgba(30, 30, 30, .4);
+    width: 30%;
+    margin-left: 35px;
+}
+.hd1 {
+    font-family: "Myriad Pro";
+    text-align: left;
+    font-size: 35px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: bold;
+    margin: 20px 15px 5px 35px;
+}
+
+.box {
+    height: fit-content;
+    font-family: "Century Gothic";
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgba(50, 20, 20, .9);
+    margin: 10px 15px 10px 35px;
+    text-align: left;
+}
+.box > div {
+    border-left: 3px ridge rgba(20, 30, 90, .5);
+    margin: 10px 20px;
+    font-family: Cambria;
+    color: rgba(60, 60, 60, .9);
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.box > div > p {
+    color: rgba(0, 0, 0, .9);
+    font-size: 18px;
+    padding: 0px 10px 10px;
+}
+
+.hd-content {
+    height: fit-content;
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    color: rgba(0, 0, 0, .9);
+    font-size: 18px;
+    padding: 0px 10px 10px;
+    margin: 10px 15px 10px 35px;
+    text-align: left;
+}
+
+star {
+    padding-left: 5px;
+    font-size: smaller;
+}
+.checked {
+    color: orange;
+}
