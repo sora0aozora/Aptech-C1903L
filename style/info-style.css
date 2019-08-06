@@ -58,7 +58,7 @@ icon {
     padding: 0px 10px 10px;
 }
 
-.hd-content {
+.hd1-content {
     height: fit-content;
     font-family: "Century Gothic";
     font-weight: bolder;
@@ -75,4 +75,66 @@ star {
 }
 .checked {
     color: orange;
+}
+
+.Name {
+    font-family: Camellia;
+    font-size: 50px;
+    padding-left: 60px;
+    padding-top: 40px;
+    text-align: left;
+    color: rgba(30, 10, 10, .9);
+}
+
+.Title {
+    font-family: Victorian;
+    font-size: 30px;
+    padding-left: 60px;
+    margin-top: -20px;
+    text-align: left;
+    font-weight: bolder;
+    color: rgba(80, 80, 80, 1);
+}
+
+.hd2 {
+    font-family: "Myriad Pro";
+    text-align: left;
+    font-size: 35px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: bold;
+}
+
+.hd2-content {
+    margin-top: -20px;
+    font-family: Cambria;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+.JTitle {
+    font-family: "Century Gothic";
+    font-size: 25px;
+    text-align: left;
+    font-weight: bolder;
+    margin-top: -20px;
+    color: rgba(30, 20, 20, .9);
+    padding-top: 15px;
+}
+
+.Wperiod {
+    font-family: "Century Gothic";
+    font-size: 20px;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: rgba(30, 20, 20, .9);
+}
+
+.r-lines {
+    border-top: 1px ridge rgba(30, 30, 30, .4);
+    width: 100%;
+    float: left;
 }

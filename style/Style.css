@@ -1,23 +1,22 @@
 /*noinspection ALL*/
 .m-layout {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: min-content 75%;
     height: calc(100vw - 5px);
-    background-color: rgba(180, 250, 220, .4);
 }
 
 .m-layout > div {
-   /* background-color: rgba(180, 250, 120, .4);
-    */
-    border: 1px solid black;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
 }
 
+.m-layout > .item1 {
+    background-color: rgba(90, 250, 140, .2);
+}
+
 .left-layout {
     height: fit-content;
-    background-color: rgba(180, 250, 120, .4);
     padding: 20px 5px;
 }
 
@@ -29,3 +28,17 @@
     padding: 15px;
 }
 
+.right-layout {
+    height: fit-content;
+    grid-template-rows: auto auto;
+}
+
+.right-layout > .item1 {
+    background-color: rgba(90, 250, 140, .2);
+    height: 180px;
+    margin-top: -35px;
+}
+
+.right-layout > .item2 {
+   margin-left: 60px;
+}
