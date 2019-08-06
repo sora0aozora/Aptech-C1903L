@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae4b4a9f-f8ed-43a4-891d-5d0d3798eb70" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures">
-      <change beforePath="$PROJECT_DIR$/An Huynh.html" beforeDir="false" afterPath="$PROJECT_DIR$/An Huynh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aptech-C1903L.git/.idea/Aptech-C1903L.git.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aptech-C1903L.git/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aptech-C1903L.git/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aptech-C1903L.git/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aptech-C1903L.git/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="ae4b4a9f-f8ed-43a4-891d-5d0d3798eb70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/info-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/info-style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +76,7 @@
       <workItem from="1564748427668" duration="3973000" />
       <workItem from="1564765834640" duration="12762000" />
       <workItem from="1564788816594" duration="6939000" />
-      <workItem from="1565102706401" duration="20960000" />
+      <workItem from="1565102706401" duration="23590000" />
     </task>
     <task id="LOCAL-00001" summary="First draft">
       <created>1564292398646</created>
@@ -193,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565118002136</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures - Adding contents">
+      <created>1565123877935</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1565123877935</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures - Adding contents">
+      <created>1565123988000</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1565123988000</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +231,7 @@
     <MESSAGE value="3rd draft - Adding Education and style for skills" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures - Adding contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures - Adding contents" />
   </component>
 </project>

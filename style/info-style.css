@@ -138,3 +138,13 @@ star {
     width: 100%;
     float: left;
 }
+
+ul.list-cir {
+    list-style-type: circle;
+    margin-top: -20px;
+    font-family: Cambria;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 30px;
+}
