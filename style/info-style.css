@@ -83,7 +83,7 @@ star {
     padding-left: 60px;
     padding-top: 40px;
     text-align: left;
-    color: rgba(30, 10, 10, .9);
+    color: #200f21;
 }
 
 .Title {
@@ -93,7 +93,7 @@ star {
     margin-top: -20px;
     text-align: left;
     font-weight: bolder;
-    color: rgba(80, 80, 80, 1);
+    color: #032535;
 }
 
 .hd2 {
