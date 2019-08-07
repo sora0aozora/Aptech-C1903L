@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4b4a9f-f8ed-43a4-891d-5d0d3798eb70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FILE-CV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/info-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/info-style.css" afterDir="false" />
@@ -77,6 +81,7 @@
       <workItem from="1564765834640" duration="12762000" />
       <workItem from="1564788816594" duration="6939000" />
       <workItem from="1565102706401" duration="23590000" />
+      <workItem from="1565180159395" duration="2149000" />
     </task>
     <task id="LOCAL-00001" summary="First draft">
       <created>1564292398646</created>
@@ -204,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565123988000</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changing background color">
+      <created>1565182344684</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1565182344684</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +244,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures - Adding contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures - Adding contents" />
+    <MESSAGE value="Changing background color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing background color" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
