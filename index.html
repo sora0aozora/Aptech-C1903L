@@ -5,15 +5,18 @@
 -->
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://db.onlinewebfonts.com/c/5e7a22cbdfcff9e10b293d3031f8fcc3?family=Camellia" rel="stylesheet"
           type="text/css">
     <title>An Huynh Resume</title>
     <link rel="stylesheet" href="style/Style.css">
     <link rel="stylesheet" href="style/info-style.css">
-    <link rel="stylesheet" href="style/century-gothic-cufonfonts-webfont/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/century-gothic-cufonfonts-webfont/century-gothic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script type="text/javascript" src="style/Popup.js"></script>
 </head>
 <body>
     <div class="m-layout">
@@ -76,19 +79,32 @@
                         <p>Time Management</p>
                         <p>Project Management</p>
                         <p>Team Leadership</p>
-                        <button id="myButton"><i class="fa fa-binoculars"
-                                                 style="font-weight: bold; color: rgba(0, 0, 0, .5)"> Reference</i>
-                        </button>
+                        <!-- Modal -->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i
+                                class="fa fa-binoculars" style="font-weight: bold; color: rgba(0, 0, 0, .5)">
+                            Reference</i></button>
 
-                        <div id="myPopup" class="modal">
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
 
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>Some text in the Modal..</p>
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Modal Header</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Some text in the modal.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+
                             </div>
-
                         </div>
-
                     </div>
                 </div>
                 <hr class="l-lines">

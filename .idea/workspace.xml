@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae4b4a9f-f8ed-43a4-891d-5d0d3798eb70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FILE-CV.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ae4b4a9f-f8ed-43a4-891d-5d0d3798eb70" name="Default Changelist" comment="Adding JS file">
+      <change afterPath="$PROJECT_DIR$/style/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/info-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/info-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/Popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/century-gothic-cufonfonts-webfont/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,7 +40,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Ocr3QfXrqMn3li1bAJNHjmjdXE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -82,6 +87,8 @@
       <workItem from="1564788816594" duration="6939000" />
       <workItem from="1565102706401" duration="23590000" />
       <workItem from="1565180159395" duration="2149000" />
+      <workItem from="1565352889333" duration="6024000" />
+      <workItem from="1565358951533" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="First draft">
       <created>1564292398646</created>
@@ -216,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565182344684</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adding JS file">
+      <created>1565357636924</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1565357636924</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +250,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First draft" />
     <MESSAGE value="2nd draft - Adding fonts" />
     <MESSAGE value="2nd draft" />
@@ -245,7 +260,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;An Huynh.html&#10;&#10;Rearranged structures - Adding contents" />
     <MESSAGE value="Changing background color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing background color" />
+    <MESSAGE value="Adding JS file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding JS file" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

@@ -55,3 +55,35 @@
     display: inline-block;
     font-size: 20px;
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: auto;
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: medium;
+    font-width: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
