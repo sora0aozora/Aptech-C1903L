@@ -42,3 +42,16 @@
 .right-layout > .item2 {
    margin-left: 60px;
 }
+
+#myPopup {
+    background-color: aliceblue;
+    opacity: 80%;
+    box-shadow: 2px 2px lightgray;
+    border: none;
+    color: lightgray;
+    font-family: Cambria;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
