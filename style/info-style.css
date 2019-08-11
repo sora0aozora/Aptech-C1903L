@@ -34,7 +34,7 @@ icon {
     margin: 20px 15px 5px 35px;
 }
 
-.box {
+.timeline {
     height: fit-content;
     font-family: "Century Gothic";
     font-size: 22px;
@@ -43,7 +43,8 @@ icon {
     margin: 10px 15px 10px 35px;
     text-align: left;
 }
-.box > div {
+
+.timeline > div {
     border-left: 3px ridge rgba(20, 30, 90, .5);
     margin: 10px 20px;
     font-family: Cambria;
@@ -52,7 +53,7 @@ icon {
     padding-left: 20px;
 }
 
-.box > div > p {
+.timeline > div > p {
     color: rgba(0, 0, 0, .9);
     font-size: 18px;
     padding: 0px 10px 10px;
@@ -103,16 +104,15 @@ star {
     font-size: 35px;
     color: rgba(80, 80, 80, 1);
     font-weight: bold;
+    margin-bottom: -20px;
 }
 
 .hd2-content {
-    margin-top: -20px;
     font-family: Cambria;
     font-size: 18px;
     text-align: justify;
     line-height: 25px;
-    padding-left: 20px;
-    padding-right: 50px;
+    padding: 10px 50px 5px 20px;
 }
 
 .JTitle {
@@ -128,17 +128,19 @@ star {
 .Wperiod {
     font-family: "Century Gothic";
     font-size: 20px;
-    margin-top: -10px;
-    padding-bottom: 15px;
+    margin: 20px 0px 40px;
     text-align: left;
     font-weight: bold;
     color: rgba(30, 20, 20, .9);
 }
 
 .r-lines {
-    border-top: 1px ridge rgba(30, 30, 30, .4);
+    border-top: 1px ridge rgba(30, 30, 30, .2);
+    box-shadow: grey;
     width: 100%;
     float: left;
+    margin-top: -55px;
+    margin-left: 120px;
 }
 
 ul.list-cir {

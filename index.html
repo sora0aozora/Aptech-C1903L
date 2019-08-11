@@ -6,18 +6,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://db.onlinewebfonts.com/c/5e7a22cbdfcff9e10b293d3031f8fcc3?family=Camellia" rel="stylesheet"
-          type="text/css">
+    <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/5e7a22cbdfcff9e10b293d3031f8fcc3?family=Camellia">
     <title>An Huynh Resume</title>
     <link rel="stylesheet" href="style/Style.css">
     <link rel="stylesheet" href="style/info-style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style/century-gothic-cufonfonts-webfont/century-gothic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>
+    <script src="style/carousel.js"></script>
 <body>
     <div class="m-layout">
         <div class="item1">
@@ -51,7 +47,7 @@
                     <p class="hd1">
                         Education
                     </p>
-                    <div class="box">
+                    <div class="timeline">
                         2011
                         <div>
                             Finance and Banking at Hoa Sen University
@@ -79,32 +75,6 @@
                         <p>Time Management</p>
                         <p>Project Management</p>
                         <p>Team Leadership</p>
-                        <!-- Modal -->
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i
-                                class="fa fa-binoculars" style="font-weight: bold; color: rgba(0, 0, 0, .5)">
-                            Reference</i></button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" role="dialog">
-                            <div class="modal-dialog">
-
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title">Modal Header</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Some text in the modal.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
-                                        </button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <hr class="l-lines">
@@ -135,7 +105,7 @@
                     </p>
                 </div>
                 <div class="item2">
-                   <div>
+                    <div>
                         <p class="hd2">
                             PROFESSIONAL PROFILE
                         </p>
@@ -145,78 +115,89 @@
                     </div>
                     <div>
                         <p class="hd2">EXPERIENCE</p>
-                        <p class="JTitle">Customer Service Representative</p>
-                        <p class="Wperiod" >Jobstreet Vietnam - May, 2016 - Sep, 2016</p>
-                        <div class="hd2-content">
-                            <p>Customer Care responsibilities:</p>
-                            <ul class="list-cir">
-                                <li>Supporting the clients in posting jobs on the website.</li>
-                                <li>Handling the clients’ enquiries via e-mail and telephone.</li>
-                                 <li>Checking the job postings’ quality.</li>
-                                <li>Supporting the clients in posting jobs on the website.</li>
-                            </ul>
-                            <p>Telesales responsibilities:</p>
-                            <ul class="list-cir">
-                                <li>In charge of Southern clients.</li>
-                                <li>Handling the clients’ enquiries via e-mail and telephone.</li>
-                                <li>Checking the job postings’ quality.</li>
-                                <li>Maximizing the clients’ recruitment demands.</li>
-                                <li>Consulting appropriate solutions for the clients.</li>
-                                <li>Maintaining relationship with clients.</li>
-                            </ul>
-                            <p>Team Leader responsibilities:</p>
-                            <ul class="list-cir">
-                                <li>Checking the members’ attendants.</li>
-                                <li>Managing the workload and team performance.</li>
-                                <li>In charge of project management to develop the training course for interns and new staffs.</li>
-                                <li>Guiding and training interns.</li>
-                                <li>Consulting appropriate solutions for the clients.</li>
-                                <li>Conducting members’ performance appraisals.</li>
-                            </ul>
+                        <div class="timeline">
+                            <p class="Wperiod">Present</p>
+                            <div>
+                                <p class="JTitle">Marketing Executive at YKK Vietnam Representative Office</p>
+                                <div class="hd2-content">
+                                    Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est
+                                    maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque
+                                    bibendum vehicula duis enim habitasse c
+                                </div>
+                            </div>
+                            <p class="Wperiod">Jul, 2018
+                            <hr class="r-lines">
+                            </p>
+                            <div>
+                                <p class="JTitle">Freelance Designer</p>
+                                <div class="hd2-content">
+                                    <ul class="list-cir">
+                                        <li>Designing packaging for products as demand by clients.</li>
+                                        <li>Retouching files for printing and production.</li>
+                                        <li>Organizing the pages for brochures, magazines, newspapers, books and other
+                                            publications.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="Wperiod">Dec, 2017
+                            <hr class="r-lines">
+                            </p>
+                            <div>
+                                <p class="JTitle">Account Executive at Hakuhodo & Saigon Advertising</p>
+                                <div class="hd2-content">
+                                    Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est
+                                    maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque
+                                    bibendum vehicula duis enim habitasse c
+                                </div>
+                            </div>
+                            <p class="Wperiod">Sep, 2016
+                            <hr class="r-lines">
+                            </p>
+                            <div>
+                                <p class="JTitle">Customer Service Representative at Jobstreet Vietnam</p>
+                                <div class="hd2-content">
+                                    Lorem ipsum ligula tortor sapien justo quam facilisis, pellentesque imperdiet est
+                                    maecenas urna ad, eleifend augue tortor semper iaculis habitant ut diam neque
+                                    bibendum vehicula duis enim habitasse c
+                                </div>
+                            </div>
+                            <p class="Wperiod">May, 2016</p>
                         </div>
-                        <hr class="r-lines">
-                        <p class="JTitle">Account Executive</p>
-                        <p class="Wperiod" >Hakuhodo & Saigon Advertising - Sep, 2016 - Dec, 2017</p>
-                        <div class="hd2-content">
-                            <p>Client service:</p>
-                            <ul class="list-cir">
-                                <li>Communicating with clients to collect information for event planning and preparation.</li>
-                                <li>Brainstorming ideas for project planning from client's brief.</li>
-                                <li>Being the bridge between clients and internal project teams.</li>
-                                <li>Making quotation and pitching documents for projects.</li>
-                                <li>Organize events and activations for promoting products and brand reputation.</li>
-                                <li>Quality checking, preparing and coordinating events and activations.</li>
-                                <li>Casting and selecting Supervisors, PGs, PBs for events.</li>
-                                <li>Monthly conducting market research and competitor review.</li>
-                            </ul>
-                            <p>Admin and paperwork:</p>
-                            <ul class="list-cir">
-                                <li>Handle documents and contracts for suppliers.</li>
-                                <li>In charge of contract liquidation and payment process for suppliers and clients.</li>
-                                <li>Translate documents including catalogue, manual training, plan and other required documents for events and activations.</li>
-                                <li>Consolidate reports. </li>
-                            </ul>
-                        </div>
-                        <p class="JTitle">Freelance Designer</p>
-                        <p class="Wperiod" >Jan, 2018 - Jun, 2018</p>
-                        <div class="hd2-content">
-                            <ul class="list-cir">
-                                <li>Designing packaging for products as demand by clients.</li>
-                                <li>Retouching files for printing and production.</li>
-                                <li>Organizing the pages for brochures, magazines, newspapers, books and other publications.</li>
-                            </ul>
-                        </div>
-                        <hr class="r-lines">
-                        <p class="JTitle">Marketing Executive</p>
-                        <p class="Wperiod">YKK Vietnam Representative Office - Jul, 2018 - Present</p>
-                        <div class="hd2-content">
-                            <ul class="list-cir">
-                                <li>Being the bridge between clients and R&D for developing new products for clients.</li>
-                                <li>Conducting forecast data for materials supply.</li>
-                                <li>Ensuring offered products meets clients' requirements.</li>
-                                <li>Managing work flow to ensure product developing process and production process go on smoothly.</li>
-                                <li>Continuosly following up and resolving issues relating orders, products' quality, leadtime, etc.</li>
-                            </ul>
+                    </div>
+                    <div>
+                        <p class="hd2">
+                            MY PROJECT
+                        </p>
+                        <div class="container">
+                            <div class="Pics fade">
+                                <div class="number">1/5</div>
+                                <img src="carousel/Logo.jpg" style="width: 100%;">
+                                <div class="Smile Coffee & Tea Logo"></div>
+                            </div>
+                            <div class="Pics fade">
+                                <div class="number">2/5</div>
+                                <img src="carousel/Facade.jpg" style="width: 100%;">
+                                <div class="text">Facde</div>
+                            </div>
+                            <div class="Pics fade">
+                                <div class="number">3/5</div>
+                                <img src="carousel/Letter,-Envelop,-Stamp,-Card,-Folder.jpg" style="width: 100%;">
+                                <div class="text">Stationery series</div>
+                            </div>
+                            <div class="Pics fade">
+                                <div class="number">4/5</div>
+                                <img src="carousel/Paper-Coffee-Cup-Mockup-Free-PSD.jpg" style="width: 100%;">
+                                <div class="text">Packaging</div>
+                            </div>
+                            <div class="Pics fade">
+                                <div class="number">5/5</div>
+                                <img src="carousel/Packaging.jpg" style="width: 100%;">
+                                <div class="text">Packaging</div>
+                            </div>
+                            <!--Button-->
+                            <a class="prev" onclick="slides(-1)">&#10094;</a>
+                            <a class="next" onclick="slides(1)">&#10095</a>
                         </div>
                     </div>
                 </div>
