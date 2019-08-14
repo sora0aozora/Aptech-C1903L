@@ -1,0 +1,77 @@
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .left-layout, .Avatar  {
+        display: none;
+    }
+    .m-layout {
+        grid-template-columns: 0px calc(100% - 0px);
+    }
+    .container {
+        width: 90vw;
+        position: center;
+    }
+    .timeline {
+        margin: 1vw;
+    }
+    .r-lines {
+        width: 75%;
+        float: right;
+        margin-left: 3vw;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .right-layout > .item1 {
+       height: fit-content;
+    }
+    .Name {
+        padding: 5vw 1vw;
+        font-size: 8vw;
+    }
+    .Title {
+        padding: 0vw 1vw 0vw;
+        font-size: 4vw;
+    }
+    .right-layout > .item2 {
+        margin: 1vw;
+    }
+    .hd2 {
+        font-size: 5vw;
+    }
+    .hd2-content {
+        font-size: 3.5vw;
+        padding: 2vw;
+    }
+    .JTitle,.Wperiod {
+        font-size: 4vw;
+        padding: 1vw 3vw 1vw 3vw;
+    }
+}
+
+@media only screen and (min-width: 415px)and (max-width: 766px) {
+    .right-layout > .item1 {
+        height: fit-content;
+    }
+    .Name {
+        padding: 1vw;
+        font-size: 10vw;
+    }
+    .Title {
+        padding-left: 1vw;
+        font-size: 8vw;
+    }
+    .right-layout > .item2 {
+        margin: 1vw;
+    }
+    .hd2 {
+        font-size: 6vw;
+    }
+    .hd2-content {
+        font-size: 3.5vw;
+        padding: 1vw 3vw 1vw 3vw;
+    }
+    .JTitle,.Wperiod {
+        font-size: 4vw;
+        padding: 1vw 3vw 1vw 3vw;
+    }
+}
