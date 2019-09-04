@@ -1,0 +1,15 @@
+.debug {
+    border: 2px solid red;
+}
+.firstwrap {
+    height: 100vw;
+    background-color: rgb(231,240,207);
+}
+.secwrap {
+    margin-left:-1em;
+    background-image: linear-gradient(90deg, rgb(160,193,148), rgb(182,207,166), rgb(195,216,177), rgb(231,240,207));
+    height: 100vw;
+}
+.main-body {
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>JQuery-Bulb-Toggle</title>
+</head>
+<style>
+    .container {
+        padding: 100px 50px 0;
+    }
+    .Header > div {
+        display: inline-block;
+        padding: 5px 5px 0;
+        width: 8rem;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .line {
+        border-top: 1.5px rebeccapurple solid;
+    }
+    .Bump {
+        padding-top: 30px;
+    }
+    .Bump > .btn {
+    }
+    .btn {
+        display: inline-block;
+        width: 80px;
+        border: 2px solid greenyellow;
+        text-align: center;
+        font-weight: bold;
+    }
+    .bump {
+        text-align: center;
+        font-family: Crystal;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+    .active {
+        background-color: lawngreen;
+    }
+    .onclick {
+        border: 1px solid darkseagreen;
+        border-bottom: 0;
+        border-radius: 2px;
+    }
+    .show {
+        display: block;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="Header">
+        <div class="tabheader">Bump</div>
+        <div class="tabheader">Non-Bump</div>
+        <div class="tabheader">About</div>
+    </div>
+    <hr class="line">
+    <div class="tabcontent">
+        <div class="Bump show">
+            <div class="bump">light</div>
+            <div class="btn btnOn active">On</div>
+            <div class="btn btnOff">Off</div>
+        </div>
+        <div class="NonBump">
+            <div>
+                Something
+            </div>
+        </div>
+        <div class="About">
+            <div>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    /*region toggle on/off for Bump*/
+    $( ".btn" ).click(function() {
+        $('.btn').toggleClass( "active" );
+    });
+    $( ".btn.btnOff" ).click(function() {
+        $('.bump').text("dark")
+    });
+    $( ".btn.btnOn" ).click(function() {
+        $('.bump').text("light")
+    });
+    /*endregion toggle on/off for Bump*/
+
+    /*region effect tab onclick*/
+    $('.tabheader').click(function () {
+        $('.tabheader').removeClass('onclick')
+        $(this).addClass('onclick')
+    });
+    /*endregion effect tab onclick*/
+
+    /*region change tab onclick*/
+    $()
+    /*endregion change tab onclick*/
+</script>
+</html>
