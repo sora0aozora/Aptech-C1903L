@@ -1,15 +1,21 @@
 .debug {
     border: 2px solid red;
 }
-.firstwrap {
-    height: 100vw;
-    background-color: rgb(231,240,207);
+.background {
+    height: 100%;
+    background-image: url("Scenery/Sceneryhomepage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.secwrap {
-    margin-left:-1em;
-    background-image: linear-gradient(90deg, rgb(160,193,148), rgb(182,207,166), rgb(195,216,177), rgb(231,240,207));
-    height: 100vw;
+.opa {
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(200,200,200,.5), rgba(200,200,200,.8), rgba(255,255,255,1));
+    margin: 0 -10rem;
 }
-.main-body {
-
+.hello {
+    font-size: 6rem;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    padding-top: 15%;
 }

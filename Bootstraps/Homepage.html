@@ -8,15 +8,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <title>An Huynh</title>
+    <script src="effect.js"></script>
+    <title>Resume Homepage</title>
 </head>
 <body>
-<div class="container-fluid firstwrap debug">
-    <div class="col-sm-3 secwrap debug">
-    </div>
-    <div class="col-sm-6 main-body debug">
-
+<div class="debug container-fluid background">
+    <div class="debug opa">
+        <div class="hello">
+            Welcome to my page
+        </div>
     </div>
 </div>
 </body>
+<script>
+    $(window).on(function () {
+        $('.hello').fadeIn("Medium");
+    })
+</script>
 </html>
