@@ -50,30 +50,33 @@
         border-bottom: 0;
         border-radius: 2px;
     }
-    .show {
+    .tab.active {
         display: block;
+    }
+    .tab {
+        display: none;
     }
 </style>
 <body>
 <div class="container">
     <div class="Header">
-        <div class="tabheader">Bump</div>
-        <div class="tabheader">Non-Bump</div>
-        <div class="tabheader">About</div>
+        <div class="tabheader" data-content="Bump">Bump</div>
+        <div class="tabheader" data-content="NonBump">Non-Bump</div>
+        <div class="tabheader" data-content="About">About</div>
     </div>
     <hr class="line">
     <div class="tabcontent">
-        <div class="Bump show">
+        <div class="tab Bump active">
             <div class="bump">light</div>
             <div class="btn btnOn active">On</div>
             <div class="btn btnOff">Off</div>
         </div>
-        <div class="NonBump">
+        <div class="tab NonBump">
             <div>
                 Something
             </div>
         </div>
-        <div class="About">
+        <div class="tab About">
             <div>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
             </div>
@@ -97,12 +100,16 @@
     /*region effect tab onclick*/
     $('.tabheader').click(function () {
         $('.tabheader').removeClass('onclick')
-        $(this).addClass('onclick')
-    });
+        $(this).addClass('onclick');
+
     /*endregion effect tab onclick*/
 
     /*region change tab onclick*/
-    $()
+
+        tabContent = $(this).data('content');
+        $('.tab').hide();
+        $('.'+tabContent).show();
+    })
     /*endregion change tab onclick*/
 </script>
 </html>
